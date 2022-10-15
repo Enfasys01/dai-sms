@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, FlatList } from 'react-native';
 import Card from '../Components/Card'
-import SmsAndroid from 'react-native-sms-android'
 
 const DATA =[  //id titulo imagen numero de tel 
   {
@@ -37,25 +36,11 @@ const DATA =[  //id titulo imagen numero de tel
   },
 ];
 
-const Item = ({title, imagen, telefono}) => (
-  <View style={styles.item}>
-    <Text style={styles.title}>{title}</Text>
-    <Text style={styles.title}>{imagen}</Text>
-      <Card
-      titulo={title}
-      imagen={imagen}
-      telefono={telefono}
-      />
-  </View>
-);
-
-
-
 const HomeScreen = () => {
 
   const renderItem = ({ item }) => (
     
-    <View style={{height:150, marginVertical:5}}>
+    <View style={{height:150, marginVertical:5, marginHorizontal:5}}>
       <Card
       data={item}
         />
