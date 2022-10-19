@@ -14,7 +14,7 @@ const DATA =[  //id titulo imagen numero de tel
     id: '2',
     titulo: 'Kim Wexler ',
     imagen: 'https://bolavip.com/__export/1659549953561/sites/bolavip/img/2022/08/03/better_call_saul_rhea_seehorn_crop1659549832917.jpg_1159711837.jpg',
-    telefono: '011 4959-3721',
+    telefono: '011 3685-9665', 
   },
   {
     id: '3',
@@ -24,7 +24,7 @@ const DATA =[  //id titulo imagen numero de tel
   },
   {
     id: '4',
-    titulo: 'BETTER FUCK CHUCK',
+    titulo: 'Chuck McGill',
     imagen: 'https://hips.hearstapps.com/esq.h-cdn.co/assets/17/25/480x480/square-1497977852-saul.jpg?resize=640:*',
     telefono: '011 4959-3721',
   },
